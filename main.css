@@ -22,7 +22,6 @@ body {
     background: darkblue;
     margin-top: 0px;
 }
-
 #nav li{
     padding: 15px;
     color: white;
@@ -33,6 +32,10 @@ body {
 #nav #logo {
     background: white;
     padding: 10px;
+}
+#nav {
+  display: flex;
+  flex-direction: row;
 }
 
 #logo img{
@@ -46,6 +49,8 @@ h1, h2 {
 
 #gallery {
     background: red;
+    display: flex;
+    justify-content: center;
 }
 
 .gallery-item{
@@ -55,4 +60,11 @@ h1, h2 {
 .sub-section img {
     margin: 10px;
     border: darkblue solid 3px;
+}
+.sub-section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
